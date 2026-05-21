@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support policy
+    url: https://github.com/bearaujus-dungeon/minecraft-addons/blob/main/SUPPORT.md
+    about: Read this before opening an issue.
+  - name: Project list
+    url: https://github.com/bearaujus-dungeon/minecraft-addons/blob/main/PROJECTS.md
+    about: Find official project links after public release.
+  - name: Contact
+    url: https://github.com/bearaujus-dungeon/minecraft-addons/blob/main/CONTACT.md
+    about: Official contact points for support, license, and permission requests.

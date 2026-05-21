@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a new feature or improvement.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: input
+    id: addon
+    attributes:
+      label: Addon name
+      description: Use "new addon idea" if this is not for an existing addon.
+      placeholder: Example Addon
+    validations:
+      required: true
+  - type: dropdown
+    id: addon_type
+    attributes:
+      label: Best fit
+      options:
+        - Fabric mod
+        - Data pack
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or goal
+      description: What player/server need does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested behavior
+      description: Describe what should happen in-game.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This request targets Minecraft Java Edition 26.1.2 or newer.
+          required: true
+        - label: This request does not require unsupported loaders/platforms unless stated as future support.
+          required: true

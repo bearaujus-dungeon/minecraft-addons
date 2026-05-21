@@ -1,0 +1,19 @@
+name: Question
+description: Ask a support question that is not a bug report.
+title: "[Question]: "
+labels: ["question", "needs-triage"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Please include addon name, version, and Minecraft version if relevant.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked the README, SUPPORT.md, and existing issues.
+          required: true

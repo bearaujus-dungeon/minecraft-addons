@@ -1,0 +1,69 @@
+name: Compatibility report
+description: Report compatibility with a Minecraft version, loader, mod, data pack, or server setup.
+title: "[Compatibility]: "
+labels: ["compatibility", "needs-triage"]
+body:
+  - type: input
+    id: addon
+    attributes:
+      label: Addon name and version
+      placeholder: Example Addon 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Java version tested
+      placeholder: 26.1.2
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Works
+        - Partially works
+        - Broken
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Client-side
+        - Server-side
+        - Client and server
+        - Singleplayer integrated server
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup details
+      description: Include Fabric Loader/API versions, server type, other mods, data packs, resource packs, and launcher if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe what works or fails.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I tested Minecraft Java Edition 26.1.2 or newer.
+          required: true
+        - label: I understand compatibility is only claimed after maintainer verification.
+          required: true

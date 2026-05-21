@@ -1,0 +1,55 @@
+name: Permission, license, or reupload request
+description: Ask for permission related to modpacks, mirrors, servers, commercial use, or licensing.
+title: "[Permission]: "
+labels: ["permission", "license", "needs-triage"]
+body:
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - Modpack inclusion
+        - Launcher inclusion
+        - Server pack inclusion
+        - Mirror or reupload
+        - Commercial/server use
+        - Asset/code use
+        - License question
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: addon
+    attributes:
+      label: Addon name and version
+      placeholder: Example Addon 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Intended use
+      description: Explain exactly what you want to do and where the addon would be distributed or referenced.
+    validations:
+      required: true
+  - type: input
+    id: project_url
+    attributes:
+      label: Project/server/pack URL
+      placeholder: https://...
+  - type: textarea
+    id: distribution
+    attributes:
+      label: Distribution details
+      description: Will users download from official Modrinth/project links, or would you redistribute files directly?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I understand reuploads, mirrors, modified builds, resale, and asset extraction require written permission.
+          required: true
+        - label: I understand permission is not granted until bearaujus explicitly approves it in writing.
+          required: true

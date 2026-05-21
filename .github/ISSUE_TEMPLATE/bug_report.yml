@@ -1,0 +1,104 @@
+name: Bug report
+description: Report a reproducible bug in a Bearaujus addon.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please include exact versions and reproduction steps.
+  - type: input
+    id: addon
+    attributes:
+      label: Addon name
+      placeholder: Example Addon
+    validations:
+      required: true
+  - type: input
+    id: addon_version
+    attributes:
+      label: Addon version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: addon_type
+    attributes:
+      label: Addon type
+      options:
+        - Fabric mod
+        - Data pack
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Java version
+      placeholder: 26.1.2
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Client-side
+        - Server-side
+        - Client and server
+        - Singleplayer integrated server
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: Loader/platform version
+      description: For Fabric mods, include Fabric Loader and Fabric API versions. For data packs, write "data pack".
+      placeholder: Fabric Loader 0.19.2, Fabric API 0.149.1+26.1.2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Install ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash report
+      description: Paste relevant logs or attach a file. Redact tokens, server addresses, and personal information.
+      render: text
+  - type: textarea
+    id: other_addons
+    attributes:
+      label: Other mods/data packs installed
+      description: Include versions if possible.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I am using Minecraft Java Edition 26.1.2 or newer.
+          required: true
+        - label: I downloaded the addon from an official source.
+          required: true
+        - label: I checked that this is not already reported.
+          required: true
