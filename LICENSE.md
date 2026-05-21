@@ -9,6 +9,8 @@ Bearaujus Proprietary License v1.0
 LicenseRef-Bearaujus-Proprietary-1.0
 ```
 
+Full license text: [LICENSE.txt](LICENSE.txt)
+
 Summary:
 
 - You may download and use official addon releases from authorized sources.

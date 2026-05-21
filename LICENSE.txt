@@ -1,0 +1,183 @@
+Bearaujus Proprietary License v1.0
+
+Copyright (c) 2026 bearaujus. All rights reserved.
+
+This license applies to Minecraft Java Edition mods, data packs, resource files,
+documentation, source code, binaries, archives, images, audio, text, and other
+materials in this repository or distributed by bearaujus unless a file or
+third-party component states a different license.
+
+This is a proprietary license. It is not an open-source license.
+
+1. Definitions
+
+"Addon" means any mod, data pack, resource pack, file, archive, source file,
+binary, asset, documentation, or related material distributed under this
+license.
+
+"Owner" means bearaujus.
+
+"Authorized Source" means a distribution page, account, service, or direct file
+link controlled by bearaujus or explicitly approved by bearaujus in writing.
+Authorized Sources may include the official Modrinth project page for an Addon.
+
+"User" means a person or organization that downloads, installs, runs, or
+otherwise uses an Addon.
+
+"Minecraft" means Minecraft Java Edition and related software, services,
+names, brands, and assets owned by Mojang AB, Microsoft Corporation, or their
+affiliates.
+
+2. License Grant
+
+Subject to this license, the Owner grants each User a limited, personal,
+revocable, non-exclusive, non-transferable license to:
+
+a. download the Addon from an Authorized Source;
+b. install and run the Addon with a legitimate copy of Minecraft Java Edition;
+c. use the Addon in singleplayer worlds, multiplayer servers, and development
+   or testing environments;
+d. make private backup copies for personal or internal operational use;
+e. record, stream, screenshot, review, or discuss gameplay that uses the Addon;
+f. include the Addon in a launcher profile, server setup, or Modrinth modpack
+   only by referencing or downloading the Addon from an Authorized Source.
+
+No ownership rights are transferred to the User.
+
+3. Authorized Platform Distribution
+
+The Owner may upload the Addon to Modrinth or another Authorized Source. When
+the Owner does so, the Owner permits that Authorized Source to host, copy,
+cache, display, scan, process, and distribute the Addon as needed to operate
+the service, subject to that service's applicable terms.
+
+Users and third parties may not treat this platform permission as permission to
+mirror, reupload, fork, sublicense, resell, or redistribute the Addon outside an
+Authorized Source.
+
+4. Restrictions
+
+Except with prior written permission from the Owner, Users may not:
+
+a. sell, rent, lease, sublicense, or commercially distribute the Addon;
+b. reupload, mirror, repost, or redistribute the Addon or modified copies of it;
+c. bundle the Addon in a modpack, launcher, server pack, archive, installer, or
+   third-party distribution if the Addon file itself is redistributed instead
+   of being fetched from an Authorized Source;
+d. distribute modified, patched, decompiled, obfuscated, renamed, or rebuilt
+   versions of the Addon;
+e. remove, hide, or alter copyright notices, license notices, author metadata,
+   attribution, watermarks, or provenance metadata;
+f. claim ownership, authorship, sponsorship, endorsement, or official status;
+g. use the Addon name, Owner name, logos, artwork, screenshots, or assets in a
+   way that is misleading, infringing, or confusingly similar to the Owner's
+   branding;
+h. extract, copy, repurpose, sell, or redistribute textures, models, sounds,
+   music, icons, code, data, writing, or other assets separately from the
+   Addon;
+i. use the Addon to create malware, spyware, cheats, hacked clients, unfair
+   multiplayer advantages, illegal activity, or harmful content;
+j. use the Addon to verify ownership of out-of-game products, NFTs, tokens, or
+   paid entitlements in a way that affects in-game features or functions;
+k. bypass Minecraft, Mojang, Microsoft, Modrinth, launcher, or server
+   restrictions;
+l. reverse engineer, decompile, disassemble, or attempt to derive source code
+   from the Addon, except to the extent this restriction is not allowed by
+   applicable law.
+
+5. Server Use
+
+Server owners may install and run the Addon on servers they own or control,
+including public servers, provided they comply with this license and the
+Minecraft EULA and Usage Guidelines.
+
+Server owners may not sell the Addon itself, sell access to copies of the
+Addon, or make separate out-of-game purchases a condition for using Addon
+features unless the Owner gives written permission and the use also complies
+with Minecraft's terms.
+
+6. Modpack And Launcher Use
+
+Modpacks and launchers may reference the Addon only when they fetch the Addon
+from an Authorized Source and preserve the Addon's metadata, dependency
+metadata, license, and attribution.
+
+Redistributing the Addon file inside a modpack archive, launcher package,
+server pack, installer, or mirror is not allowed without written permission.
+
+7. Third-Party Components
+
+Some Addons may depend on third-party libraries, APIs, tools, or assets. Those
+components remain subject to their own licenses. This license does not grant
+rights to third-party components beyond the rights their owners provide.
+
+If a third-party license requires a notice, source offer, attribution, or other
+condition, that requirement must be followed for that component.
+
+8. Minecraft And Platform Terms
+
+This license grants rights only to the Owner's original Addon materials. It
+does not grant rights to Minecraft, Mojang, Microsoft, Fabric, Modrinth, or any
+third-party content.
+
+The Addon is not official Minecraft content and is not approved by, sponsored
+by, endorsed by, or associated with Mojang AB, Microsoft Corporation, Fabric,
+or Modrinth unless explicitly stated by those parties.
+
+If this license appears to allow something that Minecraft's EULA, Minecraft's
+Usage Guidelines, Modrinth's terms, applicable platform rules, or applicable
+law does not allow, then that use is not allowed.
+
+9. Feedback And Contributions
+
+Unless a separate written agreement says otherwise, ideas, feedback, bug
+reports, suggestions, translations, code snippets, pull requests, or other
+contributions submitted to the Owner may be used, modified, and distributed by
+the Owner without payment or obligation.
+
+The contributor represents that they have the right to submit the contribution
+and that it does not violate another person's rights.
+
+10. Termination
+
+If a User violates this license, their rights under this license terminate
+automatically. Upon termination, the User must stop using the Addon and delete
+all copies under their control.
+
+The Owner may also revoke permission for a specific User or distribution path
+when necessary to protect the Addon, users, platform compliance, or legal
+rights.
+
+11. No Warranty
+
+The Addon is provided "as is" and "as available", without warranties of any
+kind, express or implied, including warranties of merchantability, fitness for a
+particular purpose, non-infringement, compatibility, security, or uninterrupted
+operation.
+
+Use the Addon at your own risk. Back up worlds, servers, and configuration
+before installing or updating the Addon.
+
+12. Limitation Of Liability
+
+To the maximum extent permitted by applicable law, the Owner is not liable for
+any direct, indirect, incidental, special, consequential, exemplary, or punitive
+damages; loss of profits; loss of revenue; loss of data; world corruption;
+server downtime; account action; platform action; or other losses arising from
+or related to the Addon or this license.
+
+13. No Waiver
+
+If the Owner does not enforce a part of this license immediately, that does not
+mean the Owner waives the right to enforce it later.
+
+14. Written Permission
+
+Any permission that changes this license must be written and clearly issued by
+bearaujus or an authorized representative of bearaujus.
+
+15. Contact
+
+For licensing questions, permission requests, or takedown requests, contact the
+Owner at haryo.assyafah@gmail.com or through an official project page published
+by bearaujus.
